@@ -1,35 +1,55 @@
 body {
   padding-top: 5rem;
+  background-image: url(../source/squiggle_animated.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
+
 .starter-template {
   padding: 4rem 1.5rem;
   text-align: center;
 }
 
-.navbar-brand{
-	font-color: #222222;
+.nav-masthead{
+	width: fit-content;
+    float: right;
+}
+
+.navbar-brand, .navbar-brand:hover, .navbar-brand:visited{
+	color: #222222;
 	font-size: 24px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 600;
 }
 
-#main-navigation a, #main-navigation a:hover, #main-navigation a:visited{
-	font-color: #222222;
-	font-size: 20px;
+
+.nav-masthead a, .nav-masthead a:visited{
+	color: #666666;
+	font-size: 16px;
 	font-family: 'Source Sans Pro', sans-serif;
+	transition: color 0.5s ease;
+}
+
+.nav-masthead a:hover{
+	color: #333333;
 }
 
 #main-lead{
-
-	font-family: Lora;
+	padding-right: 250px;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 72px;
-	line-height: 92px;
+	line-height: 88px;
 
-	text-align: center;
+	text-align: left;
 	color: #333333;
+	font-family: 'IBM Plex Serif', serif;
 }
+
+/*.color-emphasize{
+	color: #DB4C90;
+}*/
 
 
 #navbarsExampleDefault{
@@ -38,7 +58,16 @@ body {
 
 
 .btn-cta{
+	margin-top: 20px;
+	display: block;
+	float: left;
 	font-size: 20px;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 600;
+	font-weight: 400;
+	color: #666666;
+	transition: color 0.5s ease;
+}
+
+.btn-cta:hover{
+	color: #333333;
 }
