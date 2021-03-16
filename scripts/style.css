@@ -1,0 +1,44 @@
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 4rem 1.5rem;
+  text-align: center;
+}
+
+.navbar-brand{
+	font-color: #222222;
+	font-size: 24px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+}
+
+#main-navigation a, #main-navigation a:hover, #main-navigation a:visited{
+	font-color: #222222;
+	font-size: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#main-lead{
+
+	font-family: Lora;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 72px;
+	line-height: 92px;
+
+	text-align: center;
+	color: #333333;
+}
+
+
+#navbarsExampleDefault{
+	float: right;
+}
+
+
+.btn-cta{
+	font-size: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+}
